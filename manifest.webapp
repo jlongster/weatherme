@@ -1,16 +1,16 @@
 {
   "version": "0.1",
-  "name": "Weather Me",
-  "description": "An awesome weather app",
-  "launch_path": "/weatherme/",
+  "name": "My App",
+  "description": "Your new awesome Open Web App",
+  "launch_path": "/",
   "icons": {
-    "128": "/weatherme/icon-128.png"
+    "16": "/img/icons/mortar-16.png",
+    "48": "/img/icons/mortar-48.png",
+    "128": "/img/icons/mortar-128.png"
   },
   "developer": {
     "name": "Your Name",
     "url": "http://yourawesomeapp.com"
   },
-  "installs_allowed_from": ["*"],
-  "appcache_path": "/cache.manifest",
-  "default_locale": "en"
+  "installs_allowed_from": ["*"]
 }

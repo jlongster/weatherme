@@ -3,16 +3,15 @@
   <head>
     <meta charset="utf-8">
 
-    <title>Weather Me</title>
+    <title></title>
     <meta name="description" content="">
 
     <!-- Mobile viewport optimized: h5bp.com/viewport -->
     <meta name="viewport" content="width=device-width">
 
-    <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
-
-    <!-- Do not add any other CSS here and @import it in app.css. It
-         will be inlined when building. -->
+    <!-- Do not add any other CSS here, instead @import it in app.css.
+         It will be inlined when building. That way it will
+         automatically be minified. -->
     <link rel="stylesheet" href="css/app.css">
 
     <!-- All JavaScript at the bottom, except this Modernizr build.
@@ -30,7 +29,7 @@
 
       <div class="tab-content">
         <div class="tab-pane active" id="forecast">
-          <h1>What's the Weather?</h1>
+          <h1>What's the Forecast?</h1>
           <h2 class="name"></h2>
 
           <section class="day1">
@@ -54,6 +53,7 @@
       </div>
     </div>
 
+
     <!-- JavaScript at the bottom for fast page loading: http://developer.yahoo.com/performance/rules.html#js_bottom -->
 
     <!-- Using require.js, a module system for javascript, include the
@@ -62,7 +62,6 @@
          http://requirejs.org/docs/api.html#jsfiles -->
     <script type="text/javascript"
             data-main="js/app.js"
-            src="js/app.js"></script>
-
+            src="js/lib/require.js"></script>
   </body>
 </html>
