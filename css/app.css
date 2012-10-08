@@ -4266,6 +4266,9 @@ body {
     background: linear-gradient(to bottom,  #ffffff 0%,#d3dde5 100%); 
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d3dde5',GradientType=0 ); 
 }
+.content h1 {
+    margin: .5em 0;
+}
 .tab-content {
     padding: 1em;
 }
