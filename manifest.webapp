@@ -1,12 +1,10 @@
 {
   "version": "0.1",
-  "name": "My App",
-  "description": "Your new awesome Open Web App",
-  "launch_path": "/",
+  "name": "Weather Me",
+  "description": "An awesome weather app",
+  "launch_path": "/weatherme",
   "icons": {
-    "16": "/img/icons/mortar-16.png",
-    "48": "/img/icons/mortar-48.png",
-    "128": "/img/icons/mortar-128.png"
+    "128": "/weatherme/mortar-128.png"
   },
   "developer": {
     "name": "Your Name",
