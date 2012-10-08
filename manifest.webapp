@@ -1,7 +1,7 @@
 {
   "version": "0.1",
   "name": "Weather Me",
-  "description": "An awesome weather app",
+  "description": "Awesome weather app",
   "launch_path": "/weatherme",
   "icons": {
     "128": "/weatherme/mortar-128.png"
