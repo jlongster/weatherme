@@ -4,7 +4,7 @@
   "description": "An awesome weather app",
   "launch_path": "/weatherme",
   "icons": {
-    "128": "/weatherme/mortar-128.png"
+    "128": "/weatherme/icon-128.png"
   },
   "developer": {
     "name": "Your Name",
